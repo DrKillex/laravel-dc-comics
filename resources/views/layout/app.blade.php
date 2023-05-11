@@ -9,8 +9,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="{{route('comics.index')}}">home</a></h1> 
-        <h1><a href="{{route('comics.create')}}">create</a></h1>       
+        @include('partials.header')
     </header>
     <main>
         @yield('main.content')
